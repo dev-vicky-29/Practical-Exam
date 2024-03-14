@@ -1,0 +1,138 @@
+Assignment 1 -Java Programs Based on Branching and Looping Statements
+
+Assignment 1.1) Write a Java Program to Perform basic Calculator Operations.(a11.java)
+Assignment 1.2) Write a Java Program to Check a Leap Year.(a12.java)
+Assignment 1.3) Write a Java Program to Calculate Fibonacci Series Up to n Number.(a13.java)
+Assignment 1.4) Write a Java Program to a Factorial of a Given Number.(a14.java)
+Assignment 1.5) Write a Java Program to find out whether given string is Palindrome or Not.(a15.java)
+Assignment 1.6) Write a Java Program to Check Prime Number.(a16.java)
+Assignment 1.7) Write a Java Program to Check an Armstrong Number.(a17.java)
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 2 - Java Programs Based on Type Casting.
+
+Assignment 2.1) Write a Java Program to illustrate Implicit Type Casting.(TestJavaTypeCasting1.java)
+Assignment 2.2) Write a Java Program to illustrate Explicit Type Casting.(TestJavaTypeCasting2.java)
+Assignment 2.3) Write a Java Program to Type Conversion from String to int.(TestJavaTypeCasting3.java)
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 3 -Java Programs Based on Command Line Arguments
+
+Program 1 :-File Name- (AdditionCommandLine.java)
+ 		*****OUTPUT*****
+E:\TY\Practical\Java Assignments>javac AdditionCommandLine.java
+E:\TY\Practical\Java Assignments>java AdditionCommandLine 20 9
+Sum of 20 and 9 is: 29
+
+Program 2 :-File Name- (TestJavaCommandLine.java)
+			*****OUTPUT*****
+E:\TY\Practical\java>javac TestJavaCommandLine.java
+
+E:\TY\Practical\java>java TestJavaCommandLine 1 2 3 4 5
+The command line arguments are:
+args[0]: 1
+args[1]: 2
+args[2]: 3
+args[3]: 4
+args[4]: 5
+
+E:\TY\Practical\java>java TestJavaCommandLine
+No command line arguments found.
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 4 - Java Program Based on class, objects, field and method.(Student.java)
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 5 - Java Program Based on Method Overloading.(Adder5.java)
+
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 6 - Java Program Based on Constructor & Constructor Overloading
+
+Assignment 6.1) Write a Java Program of Default Constructor that displays the default values.(Bike.java)
+Assignment 6.2) Write a Java Program of Parameterized Constructor.(TestJava62.java)
+Assignment 6.3) Write a Java Program of Copy Constructor.(TestJava63.java)
+Assignment 6.4) Write a Java Program of Constructor Overloading.(TestJava64.java)
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 7 - Java Programs Based on Array.
+
+Assignment 7.1) Write a Java Program of 1-D Array.(TestJavaArray1.java)
+Assignment 7.2) Write a Java Program of 2-D Array.(TestJavaArray2.java)
+Assignment 7.3) Write a Java Program to illustrate Creating an Array of Objects.(TestJavaArray3.java)
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 8 - Java Programs Based on Collection.
+
+Assignment 8.1) Write a Java Program of ArrayList Class.(TestJavaCollection1.java)
+Assignment 8.2) Write a Java Program of LinkedList Class.(TestJavaCollection2.java)
+Assignment 8.3) Write a Java Program of Vector Class. (TestJavaCollection3.java)
+Assignment 8.4) Write a Java Program of Stack Class.(TestJavaCollection4.java)
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 9 - Java Programs Based on Inheritance.
+
+Assignment 9.1) Write a Java Program Based on Concept of Single Inheritance.(TestJavaInheritance1.java)
+Assignment 9.2) Write a Java Program Based on Concept of Multilevel Inheritance.(TestJavaInheritance2.java)
+Assignment 9.3) Write a Java Program Based on Concept of Hierarchical Inheritance.(TestJavaInheritance3.java)
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 10 - Java Program Based on Method Overriding
+
+Assignment 10.1) Write a Java Program Based on Method Overriding.(Bike2.java)
+Assignment 10.2) Write a Java Program Based on Dynamic Method Dispatch.(Dog.java)
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 11 - Java Programs Based on Abstract Class
+File Name:- TestAbstraction1.java
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 12 - Java Program Based on Interface.
+File Name :- TestJavaInterface.java
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 13 - Java Program Based on Packages
+
+Program 1 :- File Name (TestJavaPackage.java)
+			******OUTPUT*****
+E:\TY\Practical\java>javac -d . TestJavaPackage.java
+
+E:\TY\Practical\java>java myPackage.TestJavaPackage
+30
+
+Program 2 :- File Name (TestJavaPackage1.java)
+			******OUTPUT*****
+E:\TY\Practical\java>javac TestJavaPackage1.java
+
+E:\TY\Practical\java>java TestJavaPackage1
+300
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 14 - Java Program Based on Exception Handling and User Defined Exception.
+
+Assignment 14.1) Write a Java Program Example of try catch Block.(TestJavaEH1.java)
+Assignment 14.2) Write a Java Program Example of Multiple catch Block.(TestJavaEH2.java)
+Assignment 14.3) Write a Java Program Example of finally Blocks.(TestJavaEH3.java)
+Assignment 14.4) Write a Java Program Example of User Defined Exception.(TestJavaEH4.java)
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 15 - Java Programs Based on Multithreading
+
+15.1: Tread Creating by Extending the Thread class.(Test1.java)
+15.2: Tread Creation by Implementing the Runnable Interface.(Test2.java)
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:

@@ -1,0 +1,61 @@
+To perform this program in Eclipse, you'll need to follow these steps:
+
+1. Set up a Dynamic Web Project in Eclipse.
+2. Create the HTML file (`Login.html`), servlet class (`FirstServlet.java`), and the `web.xml` deployment descriptor.
+3. Configure the servlet mapping in `web.xml`.
+4. Run the project on a servlet container within Eclipse.
+
+Here's a step-by-step guide:
+
+### Step 1: Set up a Dynamic Web Project
+
+1. Open Eclipse IDE.
+2. Go to `File` > `New` > `Dynamic Web Project`.
+3. Enter a project name (e.g., `LoginDemo`) and click `Next`.
+4. Choose the target runtime (e.g., Apache Tomcat) and click `Next`.
+5. Click `Finish` to create the project.
+
+### Step 2: Create the HTML File
+
+1. Right-click on the `WebContent` folder in your project.
+2. Go to `New` > `File`.
+3. Enter `Login.html` as the file name and click `Finish`.
+4. Paste the provided HTML content into `Login.html`.
+
+### Step 3: Create the Servlet Class
+
+1. Right-click on the `src` folder in your project.
+2. Go to `New` > `Class`.
+3. Enter the package name (`com.example`) and class name (`FirstServlet`).
+4. Click `Finish`.
+5. Replace the generated code in `FirstServlet.java` with the provided servlet code.
+
+### Step 4: Create the `web.xml` Deployment Descriptor
+
+1. Right-click on the `WebContent/WEB-INF` folder in your project.
+2. Go to `New` > `File`.
+3. Enter `web.xml` as the file name and click `Finish`.
+4. Paste the provided `web.xml` content into `web.xml`.
+
+### Step 5: Configure Servlet Mapping
+
+In `web.xml`, configure the servlet mapping to map the servlet to a URL pattern. Update the `<servlet-mapping>` element to match the URL pattern specified in the servlet mapping:
+
+```xml
+<servlet-mapping>
+    <servlet-name>MyServletName</servlet-name>
+    <url-pattern>/welcome</url-pattern>
+</servlet-mapping>
+```
+
+### Step 6: Run the Project
+
+1. Right-click on your project.
+2. Go to `Run As` > `Run on Server`.
+3. Choose your configured server (e.g., Apache Tomcat) and click `Finish`.
+
+Eclipse will start the server and deploy your web application. Once the server is started, the login page (`Login.html`) should be accessible at the root URL of your server.
+
+You can access the servlet by submitting the form on the login page. The servlet will process the form data and display a welcome message based on the username provided.
+
+That's it! You've successfully performed the program in Eclipse.

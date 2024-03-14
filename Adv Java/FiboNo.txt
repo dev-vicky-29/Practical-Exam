@@ -1,0 +1,38 @@
+To perform this program in Eclipse, you'll need to follow similar steps as before to set up a dynamic web project and create the necessary HTML and JSP files. Here's a step-by-step guide:
+
+### Step 1: Set up a Dynamic Web Project
+
+1. Open Eclipse IDE.
+2. Go to `File` > `New` > `Dynamic Web Project`.
+3. Enter a project name (e.g., `FibonacciSequence`) and click `Next`.
+4. Choose the target runtime (e.g., Apache Tomcat) and click `Next`.
+5. Click `Finish` to create the project.
+
+### Step 2: Create HTML and JSP Files
+
+1. Right-click on the `WebContent` folder in your project.
+2. Go to `New` > `File`.
+3. Enter `FiboNo.html` as the file name and click `Finish`.
+4. Paste the provided HTML content into `FiboNo.html`.
+5. Right-click on the `WebContent` folder again.
+6. Go to `New` > `File`.
+7. Enter `Fibo.jsp` as the file name and click `Finish`.
+8. Paste the provided JSP code into `Fibo.jsp`.
+
+### Step 3: Run the Project
+
+1. Right-click on your project.
+2. Go to `Run As` > `Run on Server`.
+3. Choose your configured server (e.g., Apache Tomcat) and click `Finish`.
+
+Eclipse will start the server and deploy your web application. Once the server is started, you can access the HTML form by navigating to the appropriate URL in a web browser. For example:
+
+```
+http://localhost:8080/FibonacciSequence/FiboNo.html
+```
+
+Replace `localhost:8080` with the appropriate hostname and port of your servlet container.
+
+### Observing the Fibonacci Sequence
+
+After entering a number in the HTML form and clicking "submit," the JSP page (`Fibo.jsp`) will display the Fibonacci sequence up to the specified number.

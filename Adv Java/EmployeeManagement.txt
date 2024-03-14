@@ -1,0 +1,43 @@
+To perform this program in Eclipse, you'll need to follow these steps:
+
+### Step 1: Set up a Dynamic Web Project
+
+1. Open Eclipse IDE.
+2. Go to `File` > `New` > `Dynamic Web Project`.
+3. Enter a project name (e.g., `EmployeeManagement`) and click `Next`.
+4. Choose the target runtime (e.g., Apache Tomcat) and click `Next`.
+5. Click `Finish` to create the project.
+
+### Step 2: Create JSP Files
+
+1. Right-click on the `WebContent` folder in your project.
+2. Go to `New` > `File`.
+3. Enter `employee.jsp` as the file name and click `Finish`.
+4. Paste the provided `employee.jsp` content into the file.
+5. Right-click on the `WebContent` folder again.
+6. Go to `New` > `File`.
+7. Enter `emp_register.jsp` as the file name and click `Finish`.
+8. Paste the provided `emp_register.jsp` content into the file.
+9. Right-click on the `WebContent` folder again.
+10. Go to `New` > `File`.
+11. Enter `emp_process.jsp` as the file name and click `Finish`.
+12. Paste the provided `emp_process.jsp` content into the file.
+
+### Step 3: Set up Database Connection
+
+1. Ensure you have MySQL Server installed and running.
+2. Create a database named `emp`.
+3. Create a table named `employee` with appropriate columns (`emp_id`, `emp_name`, `city_name`, `email`, `department`).
+4. Update the database connection details (driver, connection URL, username, password) in each JSP file according to your MySQL configuration.
+
+### Step 4: Run the Project
+
+1. Right-click on your project.
+2. Go to `Run As` > `Run on Server`.
+3. Choose your configured server (e.g., Apache Tomcat) and click `Finish`.
+
+Eclipse will start the server and deploy your web application. Once the server is started, you can access the application by navigating to the appropriate URL in a web browser.
+
+### Important Note:
+
+It's not recommended to directly write JDBC code in JSP files for production applications. Instead, consider using servlets or other Java classes to handle database interactions, and use JSP files only for presentation logic. Additionally, parameterized queries should be used to prevent SQL injection vulnerabilities.

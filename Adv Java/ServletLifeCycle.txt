@@ -1,0 +1,63 @@
+To perform this program in Eclipse, you'll need to follow these steps:
+
+1. Set up a Dynamic Web Project in Eclipse.
+2. Create the servlet class (`ServletLifeCycle.java`) and the `web.xml` deployment descriptor.
+3. Configure the servlet mapping in `web.xml`.
+4. Run the project on a servlet container within Eclipse.
+
+Here's a step-by-step guide:
+
+### Step 1: Set up a Dynamic Web Project
+
+1. Open Eclipse IDE.
+2. Go to `File` > `New` > `Dynamic Web Project`.
+3. Enter a project name (e.g., `ServletLifeCycleDemo`) and click `Next`.
+4. Choose the target runtime (e.g., Apache Tomcat) and click `Next`.
+5. Click `Finish` to create the project.
+
+### Step 2: Create the Servlet Class
+
+1. Right-click on the `src` folder in your project.
+2. Go to `New` > `Servlet`.
+3. Enter the package name (`lifeCycleEx`) and class name (`ServletLifeCycle`).
+4. Click `Next`.
+5. In the "Superclass" field, select `javax.servlet.http.HttpServlet`.
+6. Click `Finish`.
+
+Replace the generated code in `ServletLifeCycle.java` with the provided servlet code.
+
+### Step 3: Create the `web.xml` Deployment Descriptor
+
+1. Right-click on the `WebContent` folder in your project.
+2. Go to `New` > `File`.
+3. Enter `web.xml` as the file name and click `Finish`.
+4. Paste the provided `web.xml` content into `web.xml`.
+
+### Step 4: Configure Servlet Mapping
+
+In `web.xml`, configure the servlet mapping to map the servlet to a URL pattern. Update the `<servlet-mapping>` element to match the URL pattern specified in the servlet mapping:
+
+```xml
+<servlet-mapping>
+    <servlet-name>LifeCycle</servlet-name>
+    <url-pattern>/welcome</url-pattern>
+</servlet-mapping>
+```
+
+### Step 5: Run the Project
+
+1. Right-click on your project.
+2. Go to `Run As` > `Run on Server`.
+3. Choose your configured server (e.g., Apache Tomcat) and click `Finish`.
+
+Eclipse will start the server and deploy your web application. Once the server is started, you can access the servlet by navigating to the specified URL pattern in a web browser. For example:
+
+```
+http://localhost:8080/ServletLifeCycleDemo/welcome
+```
+
+Replace `localhost:8080` with the appropriate hostname and port of your servlet container.
+
+### Observing the Servlet Lifecycle
+
+After accessing the servlet, you should see the servlet lifecycle events (`init`, `service`, and `destroy`) printed to the console or server logs in Eclipse's console view, indicating that the servlet has been initialized, serviced a request, and destroyed, respectively. Additionally, the servlet will respond with a simple HTML message indicating "Welcome to servlet" in the browser.

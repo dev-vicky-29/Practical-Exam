@@ -1,0 +1,92 @@
+Assignment 1 : Java Program to Create Student Registration Form.
+File Name : StudentRegistration.java
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 2 : Java Program to Create a Simple Calculator with basic +, -, /, * using java swing elements.
+File Name : MyCalculator.java
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 3 : . Java program to create JCheckBox.
+File Name : CheckBoxDemo.java
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 4 : Java program to create JRadioButton.
+File Name : RadioButtonDemo.java
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 5 : Java Program to Implementation of JDBC.
+File Name : StudentJDBC.java
+SQL File Name :StudentJDBC.sql
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 6 : . Create Student From to Perform Insert, Update,  Delete Operation.
+File Name : StudentInfoForm.java
+SQL File Name : StudentInfoForm.sql
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 7 : GUI and DB connection with Image.
+File Name : StudentimgInfoForm.java
+SQL File Name : StudentimgInfoForm.sql
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 8 : Write a Java application to Demonstrate servlet life cycle.
+File Name : ServletLifeCycle.java
+Instruction File Name : ServletLifeCycle.txt
+
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 9 : Simple program to handle HTML form data using Java Servlet.
+File Name : FirstServlet.java
+Instruction File Name : FirstServlet.txt
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 10 : Program to maintain session using cookies.
+File Name : SecondServlet.java
+Instruction File Name : SecondServlet.txt
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 11 : Program to create a simple JSP application to check if a given number is Prime or not.
+File Name : PrimeNumber.java
+Instruction File Name : PrimeNumber.txt
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 12 : Program to create simple JSP application to print Fibonacci sequence for given number.
+File Name : FiboNo.java
+Instruction File Name : FiboNo.txt
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 13 : Program to create a simple JSP application to check if a given string is palindrome or not.
+File Name : Palindrome.java
+Instruction File Name : Palindrome.txt
+
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+:*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*::*:*:
+
+Assignment 14 : Create EMP table in Database and perform insert, update, and delete operation on EMP table using JSP.
+File Name : EmployeeManagement.java
+SQL File Name : EmployeeManagement.sql
+Instruction File Name : EmployeeManagement.txt

@@ -1,0 +1,57 @@
+To perform this program in Eclipse, you'll need to follow these steps:
+
+1. Set up a Dynamic Web Project in Eclipse.
+2. Create the HTML file (`index.html`) and the servlet classes (`FirstServlet.java` and `SecondServlet.java`).
+3. Configure the servlet mappings in the `web.xml` deployment descriptor.
+4. Run the project on a servlet container within Eclipse.
+
+Here's a step-by-step guide:
+
+### Step 1: Set up a Dynamic Web Project
+
+1. Open Eclipse IDE.
+2. Go to `File` > `New` > `Dynamic Web Project`.
+3. Enter a project name (e.g., `SessionUsingCookies`) and click `Next`.
+4. Choose the target runtime (e.g., Apache Tomcat) and click `Next`.
+5. Click `Finish` to create the project.
+
+### Step 2: Create HTML and Servlet Files
+
+1. Right-click on the `WebContent` folder in your project.
+2. Go to `New` > `File`.
+3. Enter `index.html` as the file name and click `Finish`.
+4. Paste the provided HTML content into `index.html`.
+5. Right-click on the `src` folder in your project.
+6. Go to `New` > `Package`.
+7. Enter a package name (e.g., `cookiesEx`) and click `Finish`.
+8. Right-click on the newly created package.
+9. Go to `New` > `Servlet`.
+10. Enter the servlet class name (`FirstServlet`) and click `Next`.
+11. In the "Superclass" field, select `javax.servlet.http.HttpServlet`.
+12. Click `Finish`.
+13. Repeat steps 8-12 to create `SecondServlet.java`.
+
+Replace the generated code in `FirstServlet.java` and `SecondServlet.java` with the provided servlet code.
+
+### Step 3: Configure Servlet Mappings
+
+1. Open the `web.xml` file located in the `WEB-INF` folder.
+2. Paste the provided servlet and servlet-mapping elements into `web.xml`, ensuring that the package names and class names match the ones you created.
+
+### Step 4: Run the Project
+
+1. Right-click on your project.
+2. Go to `Run As` > `Run on Server`.
+3. Choose your configured server (e.g., Apache Tomcat) and click `Finish`.
+
+Eclipse will start the server and deploy your web application. Once the server is started, you can access the HTML form by navigating to the appropriate URL in a web browser. For example:
+
+```
+http://localhost:8080/SessionUsingCookies/index.html
+```
+
+Replace `localhost:8080` with the appropriate hostname and port of your servlet container.
+
+### Observing the Session Using Cookies
+
+After entering the username and clicking "go," the servlet will create a cookie with the username. When you click "go" again on the second servlet, it will retrieve the username from the cookie and display a greeting message.
