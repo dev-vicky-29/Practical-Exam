@@ -1,0 +1,27 @@
+Assignment 1:- Write an ASP.Net Program to print a message on a Webform.
+
+Assignment 2:- Write an ASP.NET program to crate simple web application using two or more web form.
+
+Assignment 3:- Write an ASP.NET Program to set a link for a new page.
+
+Assignment 4:- Write an ASP.NET program to Demonstrate different common controls.
+
+Assignment 5:- Write an ASP.NET Program Using while or for loop to print sum of first 100 odd and even numbers.
+ 
+Assignment 6:- Write an ASP.NET Program to add the Value of Textbox into a Dropdown List and Listbox.
+
+Assignment 7:- Write an ASP.NET Program to Delete Item from Dropdown List and Listbox.
+
+Assignment 8:- Write an ASP.NET Program to set Image & Image Control according to Image From Dropdown List.
+
+Assignment 9:- Write an ASP.NET program to demonstrate use of Master Page.
+
+Assignment 10:- Write ASP.NET program to demonstrate Client-Side State Management.
+
+Assignment 11:- Write ASP.NET program to demonstrate Server-Side State Management.
+
+Assignment 12:- Write an ASP.NET Program to Perform insert & update Operation in Database using Connected Architecture. 
+
+Assignment 13:- Write an ASP.NET Program to Perform Insert & Update Operation in Database Using Disconnected Architecture.
+
+Assignment 14:- Write ASP.NET Program to Display Record from Database Using Data Reader Object.

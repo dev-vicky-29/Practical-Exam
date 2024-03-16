@@ -1,0 +1,21 @@
+To compile a C# program that accepts command-line arguments in Visual Studio, you would follow these steps:
+
+1. **Open Visual Studio**: Launch Visual Studio from your Start menu or desktop shortcut.
+
+2. **Create a new Console Application project**: Go to the "File" menu, select "New", and then click on "Project...".
+
+3. **Choose project type**: In the "New Project" dialog, select "Console App (.NET Core)" or "Console App (.NET Framework)" depending on your preference and requirements. Then, click "Next".
+
+4. **Configure your project**: Enter a name for your project in the "Name" field, choose a location where you want to save your project files, and click "Create".
+
+5. **Write your C# code**: Visual Studio will create a new project with a file named `Program.cs` open. This is where you'll write your C# code. If the file isn't open, you can find it in the Solution Explorer (usually on the right-hand side of the screen).
+
+6. **Write your command-line code**: Inside `Program.cs`, you can write your command-line code. This typically involves using `Console.WriteLine()` to output text to the console and `Console.ReadLine()` to read input.
+
+7. **Configure command-line arguments in Visual Studio**: Right-click on your project in the Solution Explorer, select "Properties". Then, go to the "Debug" tab. In the "Start Options" section, you'll see a field labeled "Command line arguments". Here, you can provide the command-line arguments you want to use when debugging your program.
+
+8. **Build your project**: Once your code is written, you can build your project by going to the "Build" menu and selecting "Build Solution". Alternatively, you can press `Ctrl + Shift + B`.
+
+9. **Run your application**: After a successful build, you can run your program by pressing `F5` or clicking on the green "Start" button in the toolbar. Visual Studio will execute your program with the command-line arguments you specified in the project properties.
+
+That's it! You've successfully compiled and run your C# program that accepts command-line arguments using Visual Studio. Adjust the command-line arguments in the project properties as needed for testing different scenarios.
